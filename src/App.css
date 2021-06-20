@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.Logo {
+  width: 30%;
+}
+
+.Box {
+  text-align: center;
+  position: relative;
+}
+
+.Search,
+.Mic {
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.Mic {
+  margin-left: 500px;
+}
+
+.InputStyle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  width: 500px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  height: 25px;
+  padding-left: 35px;
+}
+
+.InputStyle:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 25px 5px;
+}
+
+button {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  padding: 0 16px;
+  margin: 11px 4px;
+  height: 36px;
+  min-width: 54px;
+}
+
+.Links {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  padding: 16px 8px;
+  color: #1a0dab;
+}
+
+.Footer {
+  background-color: #f2f2f2;
+}

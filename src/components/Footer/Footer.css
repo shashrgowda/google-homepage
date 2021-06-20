@@ -1,0 +1,28 @@
+.Footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.Row2 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dadce0;
+}
+
+ul {
+  display: flex;
+}
+
+.Row1 {
+  color: #5f6368;
+  margin-left: 40px;
+}
+
+li {
+  list-style: none;
+  color: #5f6368;
+  margin-right: 25px;
+}
